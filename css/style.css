@@ -1,0 +1,26 @@
+body {
+    font-family: 'Microsoft JhengHei', 'SimHei', 'MingLiU';
+}
+header {
+    height: 44px;
+    font-size: 1.8rem;
+    line-height: 44px;
+}
+.lists {
+    height: calc(100vh - 44px);
+    background-color: #8b9caf;
+}
+.cardBox {
+    width: calc(33.33% - 7px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.cardBox:nth-child(3n) {
+    margin-right: 0;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+}
