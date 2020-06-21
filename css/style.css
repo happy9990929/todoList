@@ -7,12 +7,10 @@ header {
     line-height: 44px;
 }
 .lists {
-    height: calc(100vh - 44px);
     background-color: #8b9caf;
 }
 .cardBox {
-    width: calc(33.33% - 7px);
-    margin-right: 10px;
+    width: 100%;
     margin-bottom: 10px;
 }
 .cardBox:nth-child(3n) {
@@ -23,4 +21,13 @@ header {
 }
 .completed {
     text-decoration: line-through;
+}
+@media screen and (min-width: 768px){
+    .lists {
+        height: calc(100vh - 44px);
+    }
+    .cardBox {
+        width: calc(33.33% - 7px);
+        margin-right: 10px;
+    }
 }
