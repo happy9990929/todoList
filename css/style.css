@@ -1,13 +1,21 @@
 body {
     font-family: 'Microsoft JhengHei', 'SimHei', 'MingLiU';
+    background-color: #717171;
 }
 header {
     height: 44px;
     font-size: 1.8rem;
     line-height: 44px;
+    background-color: #8e897f; 
+}
+.addBtn {
+    background-color: #ffd400;
+    color: #4c4c4c;
+    font-weight: bold;
+    border: 1px solid #ffee9b;
 }
 .lists {
-    background-color: #8b9caf;
+    background-color: #efe8db;
 }
 .cardBox {
     width: 100%;
@@ -21,6 +29,10 @@ header {
 }
 .completed {
     text-decoration: line-through;
+}
+.form-control:focus {
+    border-color: #efe8db;
+    box-shadow: 0 0 0.5rem 0.1rem rgba(255, 255, 255, 0.59);
 }
 @media screen and (min-width: 768px){
     .lists {
