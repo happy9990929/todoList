@@ -75,7 +75,7 @@ function render(data){
                 <input type="checkbox" class="mr-2" ${item.completed ? 'checked' : ''}>
                 <div class="${item.completed ? 'completed' : ''}">${item.title}</div>
             </div>
-            <button class="btn px-2" aria-label="Close" data-action="remove" data-id="${item.id}">
+            <button class="close" aria-label="Close" data-action="remove" data-id="${item.id}">
                 <i class="fas fa-times"></i>
             </button>
         </div>

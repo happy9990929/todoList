@@ -1,12 +1,12 @@
 body {
     font-family: 'Microsoft JhengHei', 'SimHei', 'MingLiU';
-    background-color: #717171;
+    background-color: #efe8e2;
 }
 header {
     height: 44px;
     font-size: 1.8rem;
     line-height: 44px;
-    background-color: #8e897f; 
+    background-color: #645046; 
 }
 .addBtn {
     background-color: #ffd400;
@@ -15,7 +15,7 @@ header {
     border: 1px solid #ffee9b;
 }
 .lists {
-    background-color: #efe8db;
+    background-color: #e1a688;
 }
 .cardBox {
     width: 100%;
@@ -33,6 +33,9 @@ header {
 .form-control:focus {
     border-color: #efe8db;
     box-shadow: 0 0 0.5rem 0.1rem rgba(255, 255, 255, 0.59);
+}
+.list-group-item {
+    background-color: rgba(255,255,255,.4);
 }
 @media screen and (min-width: 768px){
     .lists {
